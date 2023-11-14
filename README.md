@@ -1,1 +1,2 @@
-# FoodDash---The-Food-Delivery-App
+# FoodDash
+## The Food Delivery App
