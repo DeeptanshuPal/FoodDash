@@ -114,9 +114,9 @@ if cursor.fetchone()[0] == 0:
     cursor.execute("""
         INSERT INTO Evergreen (MenuItems, price)
         VALUES
-        ('Fried Rice', 10.99),
-        ('Roll', 8.49),
-        ('Drink', 12.99)
+        ('Fried Rice', 90.99),
+        ('Roll', 80.49),
+        ('Drink', 15.99)
     """)
 
 # Check if the 'Butty' table is empty before inserting values
@@ -126,9 +126,9 @@ if cursor.fetchone()[0] == 0:
     cursor.execute("""
         INSERT INTO Butty (MenuItems, price)
         VALUES
-        ('Fried Rice', 7.99),
-        ('Roll', 9.99),
-        ('Drink', 6.49)
+        ('Fried Rice', 100.99),
+        ('Roll', 60.99),
+        ('Drink', 25.49)
     """)
 
 # Check if the 'Yurish' table is empty before inserting values
@@ -139,8 +139,8 @@ if cursor.fetchone()[0] == 0:
         INSERT INTO Yurish (MenuItems, price)
         VALUES
         ('Fresh Lime', 15.99),
-        ('Cold Drink', 11.49),
-        ('Milk Shake', 18.99)
+        ('Cold Drink', 15.99),
+        ('Milk Shake', 50.99)
     """)
 
 # Check if the 'DelD' table is empty before inserting values
@@ -150,9 +150,9 @@ if cursor.fetchone()[0] == 0:
     cursor.execute("""
         INSERT INTO DelD (MenuItems, price)
         VALUES
-        ('Fries Rice', 14.99),
-        ('Rolls', 10.49),
-        ('Biryani', 16.99)
+        ('Fries Rice', 120.99),
+        ('Rolls', 80.49),
+        ('Biryani', 150.99)
     """)
 
 # Check if the 'Subway' table is empty before inserting values
@@ -162,9 +162,9 @@ if cursor.fetchone()[0] == 0:
     cursor.execute("""
         INSERT INTO Subway (MenuItems, price)
         VALUES
-        ('12 Inch Sub', 6.99),
-        ('6 Inch Sub', 8.99),
-        ('Drink', 7.49)
+        ('12 Inch Sub', 300.99),
+        ('6 Inch Sub', 200.99),
+        ('Drink', 150.49)
     """)
 
 # Check if the 'Milan' table is empty before inserting values
@@ -174,9 +174,9 @@ if cursor.fetchone()[0] == 0:
     cursor.execute("""
         INSERT INTO Milan (MenuItems, price)
         VALUES
-        ('Biryani', 13.99),
-        ('Noodles', 9.49),
-        ('Drink', 11.99)
+        ('Biryani', 130.99),
+        ('Noodles', 90.49),
+        ('Drink', 10.99)
     """)
 
 # Commit the changes and close the cursor and connection
